@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela</title>
+    <style>
+        .tabela{
+            border: 1px #000 solid; 
+            border-collapse: collapse;
+            width: 80%;
+            margin: 0 auto;
+            
+        }
+        .tabela th, table td{
+            border: 1px #000 solid;
+            padding: 10px;
+        }
+        .tabela th{
+            background-color: blue;
+            color: white;
+
+        }
+        .tabela td{
+            text-align: center;
+        }      
+        .tabela td:nth-child(2){
+            text-align:left;
+        }
+        .tabela tr:nth-child(odd){
+            background-color: lightgray
+        }
+        .tabela tr:hover{
+            background-color: ligthyellow;
+        }
+    </style>
+</head>
+<body> 
+    <table class = "tabela">
+        <tr>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Valor</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>Sabão em pó</th>
+            <th>R$ 6.00</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>Sabão em Barra1</th>
+            <th>R$ 2,00</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>Sabão em Barra1</th>
+            <th>R$ 2,00</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>Sabão em Barra1</th>
+            <th>R$ 2,00</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>Sabão em Barra1</th>
+            <th>R$ 2,00</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>Sabão em Barra1</th>
+            <th>R$ 2,00</th>
+        </tr>
+    </table>
+</body>
+</html>
